@@ -6,4 +6,4 @@ response:
   headers:
     Content-Type: text/plain;charset=ISO-8859-1
   body: |
-    v1
+    v2
