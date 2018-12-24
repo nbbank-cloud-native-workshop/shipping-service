@@ -1,0 +1,9 @@
+type Shipping {
+    id: ID!
+    address: String!
+}
+
+# The Root Query for the application
+type Query {
+    recentShippings(page: Int = 0, size: Int = 10): [Shipping]!
+}
